@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{77B576CA-EEC2-447E-9C9D-B787AFC65D44}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SysHeyLadybug</RootNamespace>
+    <AssemblyName>SysHeyLadybug</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo~1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BDDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estoque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estoque.Designer.cs">
+      <DependentUpon>Estoque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fornecedor.Designer.cs">
+      <DependentUpon>Fornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funcionario.Designer.cs">
+      <DependentUpon>Funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produto.Designer.cs">
+      <DependentUpon>Produto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calendario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendario.Designer.cs">
+      <DependentUpon>Calendario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sobre.Designer.cs">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Movimentacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimentacao.Designer.cs">
+      <DependentUpon>Movimentacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estoque.resx">
+      <DependentUpon>Estoque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fornecedor.resx">
+      <DependentUpon>Fornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funcionario.resx">
+      <DependentUpon>Funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produto.resx">
+      <DependentUpon>Produto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendario.resx">
+      <DependentUpon>Calendario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sobre.resx">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimentacao.resx">
+      <DependentUpon>Movimentacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="BDDataSet1.xsc">
+      <DependentUpon>BDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BDDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDDataSet1.xss">
+      <DependentUpon>BDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DELIRIOS-DE-CONSUMO-DE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clothesrack-1024x768.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mp03095-Microsoft-Office-Yosemite-Word-Letter.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mp03095-Microsoft-Office-Yosemite-Excel-Letter.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Treetog-I-Documents.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.ico" />
+    <Content Include="BD.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="logo~1.ico" />
+    <None Include="Resources\car.png" />
+    <None Include="Resources\cart.png" />
+    <None Include="Resources\car_add.png" />
+    <None Include="Resources\application_view_tile.png" />
+    <None Include="Resources\cog.png" />
+    <None Include="Resources\coins.png" />
+    <None Include="Resources\page_white_office.png" />
+    <None Include="Resources\comment.png" />
+    <None Include="Resources\door_out.png" />
+    <None Include="Resources\package.png" />
+    <None Include="Resources\user_suit.png" />
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,73 @@
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMSPLASH.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMSOBRE.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMLOGIN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMPRIN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMMOV.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMCALEND.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMCLIE.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMFUNCI.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMPROD.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysDamaNoite.FRMFORN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\BeautyCompany.Properties.Resources.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.csproj.GenerateResource.Cache
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMSPLASH.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMSOBRE.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMLOGIN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMPRIN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMMOV.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMCALEND.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMCLIE.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMFUNCI.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMPROD.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysDamaNoite\SysDamaNoite\obj\x86\Release\SysBeautyCompany.FRMFORN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMSPLASH.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMSOBRE.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMLOGIN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMPRIN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMMOV.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMCALEND.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMCLIE.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMFUNCI.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMFORN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.csproj.GenerateResource.Cache
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\bin\Release\SysBeautyCompany.exe
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\bin\Release\SysBeautyCompany.pdb
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.Properties.Resources.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.exe
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.pdb
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.exe
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.pdb
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\bin\Release\SysBeautyCompany.exe
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\bin\Release\SysBeautyCompany.pdb
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMPAGAM.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMPRIN.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMSPLASH.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMSOBRE.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMLOGIN.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMMOV.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMCALEND.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMCLIE.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMFUNCI.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMFORN.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.Properties.Resources.resources
+C:\Users\Dumas\Desktop\SysBeautyCompany\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.csproj.GenerateResource.Cache
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\bin\Release\SysBeautyCompany.exe.config
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.exe
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.pdb
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMLOGIN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMPAGAM.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMPRIN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMSPLASH.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMSOBRE.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMCALEND.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMCLIE.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMFUNCI.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMFORN.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.Properties.Resources.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.csproj.GenerateResource.Cache
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\bin\Release\Banco_Dados.accdb
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\bin\Release\SysBeautyCompany.exe
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\bin\Release\SysBeautyCompany.pdb
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMPROD.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.FRMSERV.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SysBeautyCompany\Versão 3.0\SysBeautyCompany\obj\x86\Release\SysBeautyCompany.csprojResolveAssemblyReference.cache

@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{392B4FA7-E549-4CE1-9D51-D776F7F5E917}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>OtakuFest.My.MyApplication</StartupObject>
+    <RootNamespace>OtakuFest</RootNamespace>
+    <AssemblyName>OtakuFest</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>OtakuFest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>OtakuFest.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Autenticação.vb" />
+    <Compile Include="Banco_OtakuFestDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banco_OtakuFestDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Banco_OtakuFestDataSet.vb">
+      <DependentUpon>Banco_OtakuFestDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalendário.Designer.vb">
+      <DependentUpon>frmCalendário.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalendário.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCliente.Designer.vb">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsulta.Designer.vb">
+      <DependentUpon>frmConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFuncionário.Designer.vb">
+      <DependentUpon>frmFuncionário.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFuncionário.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFornecedor.Designer.vb">
+      <DependentUpon>frmFornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPagamento.Designer.vb">
+      <DependentUpon>frmPagamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPagamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProduto.Designer.vb">
+      <DependentUpon>frmProduto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProduto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecuperar.Designer.vb">
+      <DependentUpon>frmRecuperar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecuperar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRemuneração.Designer.vb">
+      <DependentUpon>frmRemuneração.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRemuneração.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSair.Designer.vb">
+      <DependentUpon>frmSair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSair.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobre.Designer.vb">
+      <DependentUpon>frmSobre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUsuário.Designer.vb">
+      <DependentUpon>frmUsuário.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUsuário.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVendaCompra.Designer.vb">
+      <DependentUpon>frmVendaCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVendaCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCalendário.resx">
+      <DependentUpon>frmCalendário.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCliente.resx">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsulta.resx">
+      <DependentUpon>frmConsulta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFuncionário.resx">
+      <DependentUpon>frmFuncionário.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFornecedor.resx">
+      <DependentUpon>frmFornecedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPagamento.resx">
+      <DependentUpon>frmPagamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProduto.resx">
+      <DependentUpon>frmProduto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecuperar.resx">
+      <DependentUpon>frmRecuperar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRemuneração.resx">
+      <DependentUpon>frmRemuneração.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSair.resx">
+      <DependentUpon>frmSair.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobre.resx">
+      <DependentUpon>frmSobre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUsuário.resx">
+      <DependentUpon>frmUsuário.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVendaCompra.resx">
+      <DependentUpon>frmVendaCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Banco_OtakuFestDataSet.xsc">
+      <DependentUpon>Banco_OtakuFestDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Banco_OtakuFestDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Banco_OtakuFestDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Banco_OtakuFestDataSet.xss">
+      <DependentUpon>Banco_OtakuFestDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Banco_OtakuFest.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

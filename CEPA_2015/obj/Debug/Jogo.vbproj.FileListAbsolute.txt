@@ -1,0 +1,12 @@
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\obj\Debug\Jogo.vbproj.GenerateResource.Cache
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\obj\Debug\Jogo.Jogo.resources
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\obj\Debug\Jogo.Resources.resources
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\obj\Debug\Jogo.Principal.resources
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\obj\Debug\Jogo.Splash.resources
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\bin\Debug\Jogo.exe
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\bin\Debug\Jogo.pdb
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\bin\Debug\Jogo.xml
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\obj\Debug\Jogo.exe
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\obj\Debug\Jogo.xml
+C:\Users\Dumas\Documents\Visual Studio 2008\My Exported Templates\obj\Debug\Jogo.pdb

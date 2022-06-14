@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C891ED21-8837-4051-8B6D-A097AB74E38F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SysBeautyCompany</RootNamespace>
+    <AssemblyName>SysBeautyCompany</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon_1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Banco_Dados_DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Banco_Dados_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Servi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servi.Designer.cs">
+      <DependentUpon>Servi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pagam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pagam.designer.cs">
+      <DependentUpon>Pagam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Princ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Princ.designer.cs">
+      <DependentUpon>Princ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sobre.Designer.cs">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produ.Designer.cs">
+      <DependentUpon>Produ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calend.Designer.cs">
+      <DependentUpon>Calend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clien.Designer.cs">
+      <DependentUpon>Clien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Funci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Funci.Designer.cs">
+      <DependentUpon>Funci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forne.Designer.cs">
+      <DependentUpon>Forne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pagam.resx">
+      <DependentUpon>Pagam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Princ.resx">
+      <DependentUpon>Princ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Servi.resx">
+      <DependentUpon>Servi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sobre.resx">
+      <DependentUpon>Sobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produ.resx">
+      <DependentUpon>Produ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calend.resx">
+      <DependentUpon>Calend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clien.resx">
+      <DependentUpon>Clien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Funci.resx">
+      <DependentUpon>Funci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forne.resx">
+      <DependentUpon>Forne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Banco_Dados_DataSet.xsc">
+      <DependentUpon>Banco_Dados_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Banco_Dados_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Banco_Dados_DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Banco_Dados_DataSet.xss">
+      <DependentUpon>Banco_Dados_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_word.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\note.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_white_office.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Banco_Dados.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icon_1.ico" />
+    <Content Include="Icon_2.ico" />
+    <None Include="Resources\overlays.png" />
+    <None Include="Resources\lorry.png" />
+    <None Include="Resources\coins.png" />
+    <None Include="Resources\door_out.png" />
+    <None Include="Resources\btn_sairPrograma.bmp" />
+    <None Include="Resources\comment.png" />
+    <None Include="Resources\cog.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\money_dollar.png" />
+    <None Include="Resources\package.png" />
+    <None Include="Resources\user_suit.png" />
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

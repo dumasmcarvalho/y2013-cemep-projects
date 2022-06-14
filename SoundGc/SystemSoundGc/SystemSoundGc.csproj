@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5028449F-0F44-4F53-A627-89ED218EF5C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SystemSoundGc</RootNamespace>
+    <AssemblyName>SystemSoundGc</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arme.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Azin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elesis.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Holy.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lass.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lire.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lupus.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mari.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rey.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ronan.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ryan.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sieg.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uno.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Veigas.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zero.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_Elesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_Lire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03_Arme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04_Lass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\05_Ryan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06_Ronan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09_Sieghart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_Mari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11_Dio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12_Zero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13_Lay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14_Lupus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15_Rin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16_Asin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17_Lime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18_Edel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19_Veigas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20_Uno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Azin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Holy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lupus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ronan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ryan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sieghart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Veigas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\08_Amy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07_Jin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seasons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seasons1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

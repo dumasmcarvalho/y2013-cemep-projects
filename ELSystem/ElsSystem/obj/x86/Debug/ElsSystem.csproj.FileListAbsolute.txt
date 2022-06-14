@@ -1,0 +1,32 @@
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\bin\Debug\ElsSystem.exe
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\bin\Debug\ElsSystem.pdb
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.Properties.Resources.resources
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.csproj.GenerateResource.Cache
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.exe
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.pdb
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.frmsplash.resources
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.frmlogin.resources
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.frmPrincipal.resources
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.csprojResolveAssemblyReference.cache
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.frmRefino.resources
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\bin\Debug\ElsSystem.exe.manifest
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\bin\Debug\ElsSystem.application
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.exe.manifest
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\obj\x86\Debug\ElsSystem.application
+C:\Users\Dumas\Desktop\SystemEls\SolElsSystem\ElsSystem\bin\Debug\Banco.accdb
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.exe
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.pdb
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\bin\Debug\ElsSystem.exe.manifest
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\bin\Debug\ElsSystem.application
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\bin\Debug\ElsSystem.exe
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.csprojResolveAssemblyReference.cache
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.frmSplash.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.frmLogin.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.frmPrincipal.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.frmRefino.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.Properties.Resources.resources
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.csproj.GenerateResource.Cache
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.exe.manifest
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.application
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\bin\Debug\ElsSystem.pdb
+C:\Users\Dumas\Documents\Meus Documentos\Outros\Sistemas\SystemEls\ElsSystem\obj\x86\Debug\ElsSystem.frmSobre.resources
