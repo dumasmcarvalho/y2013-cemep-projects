@@ -1,9 +1,0 @@
-c:\users\dumas\documents\visual studio 2010\Projects\Timer\bin\Debug\Timer.exe
-c:\users\dumas\documents\visual studio 2010\Projects\Timer\bin\Debug\Timer.pdb
-c:\users\dumas\documents\visual studio 2010\Projects\Timer\obj\x86\Debug\Timer.Properties.Resources.resources
-c:\users\dumas\documents\visual studio 2010\Projects\Timer\obj\x86\Debug\Timer.csproj.GenerateResource.Cache
-c:\users\dumas\documents\visual studio 2010\Projects\Timer\obj\x86\Debug\Timer.exe
-c:\users\dumas\documents\visual studio 2010\Projects\Timer\obj\x86\Debug\Timer.pdb
-c:\users\dumas\documents\visual studio 2010\Projects\Timer\obj\x86\Debug\Timer.Mensagem.resources
-C:\Users\Dumas\Documents\Visual Studio 2010\Projects\Timer\obj\x86\Debug\Timer.csprojResolveAssemblyReference.cache
-C:\Users\Dumas\Documents\Visual Studio 2010\Projects\Timer\obj\x86\Debug\Timer.Temporizador.resources
